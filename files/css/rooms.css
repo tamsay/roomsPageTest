@@ -37,6 +37,9 @@ header{
     font-size: 32px;
     line-height: 64px;
     color: #0D3644;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    text-decoration-color: #F6AE2D;
 }
 #logo{
     width: 73px;
@@ -114,11 +117,11 @@ nav li a:hover{
     font-family: Muli;
     font-style: normal;
     font-weight: 300;
-    font-size: 2em;
-    line-height: 36px;
+    font-size: 1em;
+    line-height: 24px;
     color: #0D3644;
-    width: 100%;
-    text-align: justify;
+    width: 75%;
+    text-align: left;
     margin-bottom: 2.5em;
 }
 #roomGallery img{
@@ -233,8 +236,8 @@ footer{
     color: #0D3644;   
 }
 footer div:nth-child(1){
-    font-size: 1.2em;
-    line-height: 24px;
+    font-size: 2em;
+    line-height: 64px;
     padding-left: 6em;
     font-family: Playfair Display;
     font-style: normal;
@@ -244,24 +247,27 @@ footer div:nth-child(1){
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    text-decoration-color: #F6AE2D;
 }
 footer div:nth-child(2){
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 24px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 footer div:nth-child(3){
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 24px;
     padding-right: 6em;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 
