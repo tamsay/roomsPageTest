@@ -210,7 +210,7 @@ nav li a:hover{
     color: #0D3644;
 }
 #bookNowBtn{
-    width: 12.5%;
+    width: auto;
     height: auto;
     text-align: center;
     font-family: 'Muli Regular';
@@ -222,6 +222,7 @@ nav li a:hover{
     text-align: center;
     color: #FFFFFF;
     padding: 20px 40px;
+    border: none;
     margin-top: 40px;
 }
 footer{
